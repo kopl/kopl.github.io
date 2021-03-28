@@ -1,0 +1,4 @@
+header.sticky_header {
+    position: sticky;
+    position: -webkit-sticky;
+}
