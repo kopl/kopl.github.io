@@ -1,0 +1,115 @@
+/*
+Theme Name:   KoPL - Venda Child
+Theme URI:    
+Description:  A KoPL extension of the venda theme.
+Version:      
+Author:       
+Author URI:   
+Template:     venda
+License:      
+License URI:  
+Tags:         one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, theme-options, threaded-comments, translation-ready,portfolio,mobile,app,one-page,single-page,ios,android,tags
+*/
+@import url("../venda/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.fixed-header .navbar-brand img {
+  height: 40px;
+  max-height: 40px;
+}
+#content {
+  padding: 0 0 50px 0;
+}
+.alignright {
+  float: right;
+}
+
+/** SHORTCODE UNLIMITED STYLING **/
+h2.su-post-title {
+  line-height: 15px;
+}
+
+/** WOTHEME OUR TEAM PLUGIN STYLING **/
+.widget_woothemes_our_team h3 {
+  display: inline;
+  color: #ccc;
+  line-height: 0px;
+}
+
+.widget_woothemes_our_team figure {
+	display: inline;
+	background: #fff;
+	float: left;
+	margin-right: 5px;
+}
+media="all" @media (max-width: 991px)
+.team-member {
+text-align: left;
+}
+
+.widget_woothemes_our_team .columns-2,
+.widget_woothemes_our_team .columns-3,
+.widget_woothemes_our_team .columns-4,
+.widget_woothemes_our_team .columns-5,
+.widget_woothemes_our_team .columns-6 {
+  overflow: hidden;
+  zoom: 1;
+}
+.widget_woothemes_our_team .columns-2 .team-member,
+.widget_woothemes_our_team .columns-3 .team-member,
+.widget_woothemes_our_team .columns-4 .team-member,
+.widget_woothemes_our_team .columns-5 .team-member,
+.widget_woothemes_our_team .columns-6 .team-member {
+  float: left;
+  margin-right: 3.8%;
+}
+.widget_woothemes_our_team .columns-2 .team-member.first,
+.widget_woothemes_our_team .columns-3 .team-member.first,
+.widget_woothemes_our_team .columns-4 .team-member.first,
+.widget_woothemes_our_team .columns-5 .team-member.first,
+.widget_woothemes_our_team .columns-6 .team-member.first {
+  clear: both;
+}
+.widget_woothemes_our_team .columns-2 .team-member.last,
+.widget_woothemes_our_team .columns-3 .team-member.last,
+.widget_woothemes_our_team .columns-4 .team-member.last,
+.widget_woothemes_our_team .columns-5 .team-member.last,
+.widget_woothemes_our_team .columns-6 .team-member.last {
+  margin-right: 0;
+}
+.widget_woothemes_our_team .columns-2 .team-member {
+  width: 48%;
+}
+.widget_woothemes_our_team .columns-3 .team-member {
+  width: 30.75%;
+}
+.widget_woothemes_our_team .columns-4 .team-member {
+  width: 22.05%;
+}
+.widget_woothemes_our_team .columns-5 .team-member {
+  width: 16.9%;
+}
+.widget_woothemes_our_team .columns-6 .team-member {
+  width: 13.5%;
+}
+
+.widget_woothemes_our_team .columns-3 .team-member figure {
+display: block;
+background: #fff;
+float: none;
+margin-right: 5px;
+height: 120px;
+text-align: center;
+padding-top: 10px;
+}
+
+.widget_woothemes_our_team .columns-3 .team-member h3 {
+  display: block;
+}
+.widget_woothemes_our_team .columns-3 .team-member .author-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
