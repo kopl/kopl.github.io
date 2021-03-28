@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeuartifactRepository version='1.0.0'?>
+<repository name='&quot;updatesite&quot;' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeuartifactRepository' version='1.0.0'>
+    <properties size='1'>
+        <property name='p2.timestamp' value='1612553890'/>
+    </properties>
+    <children size='1'>
+        <child location='https://kopl.github.io/updatesite/archive/kopl.utils'/>
+    </children>
+</repository>
